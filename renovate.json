@@ -1,9 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    ":dependencyDashboard",
     "github>shinGangan/renovate-config",
-    "github>shinGangan/renovate-config//configs/linters/recommended"
+    "github>shinGangan/renovate-config//configs/linters/recommended",
+    ":dependencyDashboard",
   ],
   "reviewers": ["shinGangan"]
 }
