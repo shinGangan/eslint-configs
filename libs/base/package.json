@@ -1,0 +1,26 @@
+{
+  "name": "@shinGangan/eslint-configs",
+  "version": "0.0.1",
+  "description": "ESLint config for base presets",
+  "private": true,
+  "author": "shinGangan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinGangan/eslint-configs.git",
+    "directory": "packages/base"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "^8.56.0",
+    "eslint-config-eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^13.24.0",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.23.0",
+    "typescript": "^5.0.0"
+  }
+}
