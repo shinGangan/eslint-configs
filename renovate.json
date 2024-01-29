@@ -1,19 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "reviewers": ["shinGangan"],
-  "labels": ["🤖 renovate"],
-  "packageRules": [
-    {
-      "extends": ["github>shinGangan/renovate-config//configs/linters"],
-      "matchPackageNames": ["typescript"],
-      "matchUpdateTypes": ["patch", "pin", "digest"],
-      "automerge": true
-    },
-    {
-      "extends": ["github>shinGangan/renovate-config//configs/linters"],
-      "matchPackageNames": ["typescript"],
-      "matchUpdateTypes": ["minor"],
-      "automerge": false
-    }
-  ]
+  "extends": [
+    "github>shinGangan/renovate-config",
+    "github>shinGangan/renovate-config//configs/linters/recommended"
+  ],
+  "reviewers": ["shinGangan"]
 }
