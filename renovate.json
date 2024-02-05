@@ -2,8 +2,14 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "github>shinGangan/renovate-config",
-    "github>shinGangan/renovate-config//configs/linters",
-    ":dependencyDashboard",
+    "github>shinGangan/renovate-config//configs/lint/linters"
   ],
-  "reviewers": ["shinGangan"]
+  "reviewers": ["shinGangan"],
+  "packageRules": [
+    {
+      "groupName": "Linters",
+      "groupSlug": "linters",
+      "matchPackageNames": ["typescript"]
+    }
+  ]
 }
