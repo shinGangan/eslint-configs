@@ -9,7 +9,7 @@
     "type": "git",
     "url": "https://github.com/shinGangan/eslint-configs.git"
   },
-  "packageManager": "pnpm@8.15.1",
+  "packageManager": "pnpm@8.15.3",
   "devDependencies": {
     "changelogen": "^0.5.5",
     "prettier": "^3.2.4",
